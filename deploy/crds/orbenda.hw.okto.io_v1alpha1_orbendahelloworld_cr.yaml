@@ -1,0 +1,8 @@
+apiVersion: orbenda.hw.okto.io/v1alpha1
+kind: OrBendaHelloWorld
+metadata:
+  name: example-orbendahelloworld
+spec:
+  # Add fields here
+  message: "<html><body><h1>Hello world, Benda!!!!</h1><h2>You Rock Kfir</h2><h2>Pillar sucks... :)</h2></body><html>"
+  replicas: 3
